@@ -1,0 +1,750 @@
+@media screen and (max-width: 767px) {
+  section.form_area form .select_type1 li .radius_reset,
+  section.form_area form .select_type2 li .radius_reset {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  section.form_area form .select_type1 li .radius_reset::before,
+  section.form_area form .select_type2 li .radius_reset::before {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  section.form_area form .select_type1 li .radius_all,
+  section.form_area form .select_type2 li .radius_all {
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+  }
+  section.form_area form .select_type1 li .radius_all::before,
+  section.form_area form .select_type2 li .radius_all::before {
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+  }
+  section.form_area form .select_type1 li .radius_top,
+  section.form_area form .select_type2 li .radius_top {
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  section.form_area form .select_type1 li .radius_top::before,
+  section.form_area form .select_type2 li .radius_top::before {
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  section.form_area form .select_type1 li .radius_bottom,
+  section.form_area form .select_type2 li .radius_bottom {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+  }
+  section.form_area form .select_type1 li .radius_bottom::before,
+  section.form_area form .select_type2 li .radius_bottom::before {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+  }
+  section.form_area form .select_type1 li .radius_left,
+  section.form_area form .select_type2 li .radius_left {
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  section.form_area form .select_type1 li .radius_left::before,
+  section.form_area form .select_type2 li .radius_left::before {
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  section.form_area form .select_type1 li .radius_right,
+  section.form_area form .select_type2 li .radius_right {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 4px !important;
+  }
+  section.form_area form .select_type1 li .radius_right::before,
+  section.form_area form .select_type2 li .radius_right::before {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 4px !important;
+  }
+  section.form_area form .select_type1 li .radius_t_l,
+  section.form_area form .select_type2 li .radius_t_l {
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  section.form_area form .select_type1 li .radius_t_l::before,
+  section.form_area form .select_type2 li .radius_t_l::before {
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  section.form_area form .select_type1 li .radius_t_r,
+  section.form_area form .select_type2 li .radius_t_r {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  section.form_area form .select_type1 li .radius_t_r::before,
+  section.form_area form .select_type2 li .radius_t_r::before {
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  section.form_area form .select_type1 li .radius_b_l,
+  section.form_area form .select_type2 li .radius_b_l {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  section.form_area form .select_type1 li .radius_b_l::before,
+  section.form_area form .select_type2 li .radius_b_l::before {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  section.form_area form .select_type1 li .radius_b_r,
+  section.form_area form .select_type2 li .radius_b_r {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 4px !important;
+  }
+  section.form_area form .select_type1 li .radius_b_r::before,
+  section.form_area form .select_type2 li .radius_b_r::before {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 4px !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  section.form_area #apply_select li,
+  section.form_area #server_select li,
+  section.form_area #panel_select li,
+  section.form_area #bottle_select li,
+  section.form_area #plan_select li,
+  section.form_area #aquahikari li {
+    padding-left: 1.6%;
+    padding-right: 1.6%;
+  }
+}
+section.form_area p.attention {
+  color: #b32121;
+}
+section.form_area #server_select_attention p.attention {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #server_select_attention p.attention {
+    padding-top: 0;
+    font-size: 1.5rem;
+    padding-left: 1.6%;
+  }
+}
+section.form_area #server_infomation {
+  margin-top: 20px;
+  padding: 15px 7px 7px;
+  background-color: #eff8f7;
+  overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #server_infomation {
+    padding-top: 15px;
+  }
+}
+section.form_area #server_infomation #server_image {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #server_infomation #server_image {
+    width: 22%;
+  }
+}
+section.form_area #server_infomation #server_image img {
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #server_infomation #server_image img {
+    width: 45%;
+  }
+}
+section.form_area #server_infomation #server_scene1 {
+  margin: 7px 7px 7px 30%;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #server_infomation #server_scene1 {
+    display: block;
+    float: left;
+    width: 39%;
+    margin: 0;
+    padding: 25px 15px 10px 0;
+    box-sizing: border-box;
+  }
+}
+section.form_area #server_infomation #server_scene2 {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #server_infomation #server_scene2 {
+    display: block;
+    float: left;
+    width: 39%;
+    padding: 25px 15px 10px 0;
+    box-sizing: border-box;
+  }
+}
+section.form_area #server_infomation #server_onwpoint {
+  margin: 0 7px 0 30%;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #server_infomation #server_onwpoint {
+    margin: 0 15px 0 22%;
+    padding: 15px 0 20px;
+  }
+}
+section.form_area #plan_select .plan_info {
+  margin-top: 10px;
+  border: 3px dotted #d8ecea;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #plan_select .plan_info {
+    margin: 0 1.6%;
+  }
+}
+section.form_area #plan_price #price_detail {
+  padding: 7px;
+  background-color: #eff8f7;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #plan_price #price_detail {
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  section.form_area #plan_price #price_detail dl {
+    display: block;
+    float: left;
+    padding-right: 15px;
+    width: 33%;
+    box-sizing: border-box;
+  }
+  section.form_area #plan_price #price_detail dl:nth-child(n + 3) {
+    padding-right: 0;
+  }
+}
+section.form_area #plan_price #price_detail dl dt {
+  position: relative;
+  padding: 0 0 0 18px;
+}
+section.form_area #plan_price #price_detail dl dt:before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 11px;
+  left: 5px;
+  background-color: #36aeb9;
+  border-radius: 50%;
+}
+section.form_area #plan_price #price_detail dl dd {
+  padding: 0 0 20px 18px;
+}
+section.form_area #plan_price #price_detail dl dd span.tax {
+  font-size: 1.2rem;
+}
+section.form_area #plan_price #price_detail p.caution {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
+  padding: 10px 5px 10px;
+  border-top: 1px solid #ccc;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #plan_price #price_detail p.caution {
+    clear: both;
+    padding-bottom: 0;
+  }
+}
+section.form_area #plan_price #price_detail #special_benefits {
+  border-top: 1px solid #ccc;
+  clear: both;
+  width: 100%;
+  padding: 10px 0;
+}
+section.form_area #plan_price #price_detail #special_benefits dt strong {
+  font-weight: normal;
+  color: #e26732;
+}
+section.form_area #plan_price #price_detail #plan_caution span {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #lot_select li {
+    width: 47%;
+    padding: 1.5%;
+  }
+}
+section.form_area #lot_select li span.panel {
+  overflow: hidden;
+}
+section.form_area #lot_select li span.panel img {
+  float: right;
+  width: 30%;
+  margin-left: 10px;
+  border: 1px solid #eee;
+}
+section.form_area #lot_select .lot_not {
+  display: none;
+}
+section.form_area #lot_select .caution {
+  font-size: 1.2rem;
+}
+section.form_area #lot_select .caution span {
+  display: none;
+}
+section.form_area #lot_select #lot_caution {
+  padding: 0 1.5%;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #aquahikari .form_checkbox {
+    width: 50%;
+  }
+}
+section.form_area #next_nestle {
+  display: none;
+  clear: both;
+  width: 100%;
+  color: #cf2424;
+  padding-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #next_nestle {
+    text-align: center;
+  }
+}
+section.form_area #next_nestle .final_bn {
+  line-height: 1.5;
+}
+section.form_area #next_nestle .final_bn::before {
+  top: auto;
+  right: 1px;
+  width: 13px;
+  height: 18px;
+  bottom: 0;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2230px%22%20height%3D%2227px%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20stroke-width%3D%222px%22%20stroke%3D%22%23fff%22%20fill%3D%22%23E26732%22%20d%3D%22M12.250%2C9.718%20L24.250%2C9.718%20L24.250%2C21.717%20L12.250%2C21.717%20L12.250%2C9.718%20Z%22%2F%3E%3Cpath%20fill-rule%3D%22evenodd%22%20stroke-width%3D%222px%22%20stroke%3D%22%23fff%22%20fill%3D%22%23E26732%22%20d%3D%22M5.625%2C5.312%20L17.625%2C5.312%20L17.625%2C17.312%20L5.625%2C17.312%20L5.625%2C5.312%20Z%22%2F%3E%3C%2Fsvg%3E");
+}
+@media screen and (min-width: 768px) {
+  section.form_area #next_nestle .final_bn br {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  section.form_area #phone_area .form_title,
+  section.form_area #personal .form_title,
+  section.form_area #owner_name_area .form_title,
+  section.form_area #owner_namekana_area .form_title {
+    margin-bottom: -15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  section.form_area input[name="companyName"],
+  section.form_area input[name="companyNameKana"] {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 768px) {
+  section.form_area input[name="email"],
+  section.form_area input[name="reason"] {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  section.form_area #scene {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 768px) {
+  section.form_area input[name="phone"] {
+    margin-top: 29px;
+  }
+}
+@media screen and (min-width: 768px) {
+  section.form_area #contactTime .select_area,
+  section.form_area #listen,
+  section.form_area #business {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 768px) {
+  section.form_area #listenMagazine {
+    float: none;
+  }
+}
+section.form_area #listen_other {
+  padding-top: 15px;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #listen_other {
+    width: 50%;
+  }
+}
+section.form_area .listen_other_tmp {
+  margin-top: 15px;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #contactDay1,
+  section.form_area #contactDay2 {
+    width: 330px;
+  }
+}
+section.form_area #contactDay1 .select_area,
+section.form_area #contactDay2 .select_area {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #contactDay1 .select_area,
+  section.form_area #contactDay2 .select_area {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  section.form_area #contactDay1 .input_title,
+  section.form_area #contactDay2 .input_title {
+    display: block;
+  }
+}
+section.form_area #contactDay1 input,
+section.form_area #contactDay2 input {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #contactDay1 input,
+  section.form_area #contactDay2 input {
+    float: left;
+    display: block;
+    width: 250px;
+    height: 40px;
+    border-radius: 4px 0 0 4px;
+    z-index: 10;
+  }
+}
+section.form_area #dayeraser1_bn,
+section.form_area #dayeraser2_bn {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #dayeraser1_bn,
+  section.form_area #dayeraser2_bn {
+    display: block;
+    margin-left: 250px;
+    display: block;
+    padding: 10px 0;
+    width: 5em;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #65bbb1;
+    transition: all 0.3s ease;
+  }
+  section.form_area #dayeraser1_bn:hover,
+  section.form_area #dayeraser2_bn:hover {
+    background-color: #1dbba9;
+    transition: all 0.3s ease;
+  }
+}
+section.form_area #dayeraser1_bn.none,
+section.form_area #dayeraser2_bn.none {
+  background-color: #dbdbdb;
+  cursor: default;
+}
+section.form_area #dayeraser1_bn.none:hover,
+section.form_area #dayeraser2_bn.none:hover {
+  background-color: #dbdbdb;
+}
+section.form_area #birthday_year,
+section.form_area #birthday_month,
+section.form_area #birthday_day {
+  position: relative;
+  width: 80%;
+  padding-right: 25px;
+  box-sizing: border-box;
+}
+section.form_area #birthday_year::before,
+section.form_area #birthday_month::before,
+section.form_area #birthday_day::before {
+  content: "年";
+  display: block;
+  position: absolute;
+  top: 8px;
+  right: 0;
+  font-size: 1.6rem;
+}
+section.form_area #birthday_month,
+section.form_area #birthday_day {
+  position: relative;
+  padding-right: 22px;
+  box-sizing: border-box;
+}
+section.form_area #birthday_month::before,
+section.form_area #birthday_day::before {
+  display: block;
+  position: absolute;
+  top: 7px;
+  right: 0;
+  font-size: 1.6rem;
+}
+section.form_area #birthday_year {
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #birthday_year {
+    float: left;
+    width: 15em;
+    margin-right: 25px;
+  }
+}
+section.form_area #birthday_year::before {
+  content: "年";
+}
+section.form_area #birthday_month {
+  float: left;
+  margin-top: 15px;
+  margin-right: 10%;
+  width: 35%;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #birthday_month {
+    width: 8em;
+    margin-top: 0;
+    margin-right: 25px;
+  }
+}
+section.form_area #birthday_month::before {
+  content: "月";
+}
+section.form_area #birthday_day {
+  float: left;
+  width: 35%;
+  margin-top: 15px;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #birthday_day {
+    width: 8em;
+    margin-top: 0;
+  }
+}
+section.form_area #birthday_day::before {
+  content: "日";
+}
+section.form_area #usernumber_input_area {
+  font-size: 1.6rem;
+}
+section.form_area #usernumber_input_area input {
+  width: 18%;
+  display: inline;
+}
+section.form_area #complete_info a {
+  color: #65bbb1;
+  text-decoration: underline;
+}
+section.form_area #complete_info .apply_important {
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 40px 0;
+  width: 100%;
+}
+section.form_area #complete_info .apply_important #apply_id {
+  display: block;
+  width: 100%;
+  height: 60px;
+  border: 1px solid #d7d7d7;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #complete_info .apply_important #apply_id {
+    float: left;
+    width: 80%;
+    border-radius: 4px 0 0 4px;
+  }
+}
+section.form_area #complete_info .apply_important #print_bn {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #complete_info .apply_important #print_bn {
+    float: left;
+    display: block;
+    padding: 10px 0;
+    width: 20%;
+    height: 60px;
+    padding-top: 18px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #65bbb1;
+    transition: all 0.3s ease;
+  }
+  section.form_area #complete_info .apply_important #print_bn:hover {
+    background-color: #1dbba9;
+    transition: all 0.3s ease;
+  }
+}
+section.form_area #complete_info #change_info .bn a,
+section.form_area #complete_info #nestle_info .bn a {
+  position: relative;
+  cursor: pointer;
+  display: block;
+  border-radius: 4px;
+  background-color: #65bbb1;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+@media screen and (min-width: 768px) {
+  section.form_area #complete_info #change_info .bn a,
+  section.form_area #complete_info #nestle_info .bn a {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+section.form_area #complete_info #change_info .bn a:hover,
+section.form_area #complete_info #nestle_info .bn a:hover {
+  background-color: #1dbba9;
+  transition: all 0.3s ease;
+}
+section.form_area #complete_info #change_info .bn a::after,
+section.form_area #complete_info #nestle_info .bn a::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  background: no-repeat center/contain;
+  bottom: 0;
+  right: 1px;
+  width: 13px;
+  height: 18px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2230px%22%20height%3D%2227px%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20stroke-width%3D%222px%22%20stroke%3D%22%23fff%22%20fill%3D%22%2365bbb1%22%20d%3D%22M12.250%2C9.718%20L24.250%2C9.718%20L24.250%2C21.717%20L12.250%2C21.717%20L12.250%2C9.718%20Z%22%2F%3E%3Cpath%20fill-rule%3D%22evenodd%22%20stroke-width%3D%222px%22%20stroke%3D%22%23fff%22%20fill%3D%22%2365bbb1%22%20d%3D%22M5.625%2C5.312%20L17.625%2C5.312%20L17.625%2C17.312%20L5.625%2C17.312%20L5.625%2C5.312%20Z%22%2F%3E%3C%2Fsvg%3E");
+}
+section.form_area #complete_info #nestle_info p.coupon {
+  max-width: 800px;
+  margin: 0 auto 25px;
+  text-align: center;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #b32121;
+}
+section.form_area #complete_info #nestle_info p.caution {
+  color: #b32121;
+  padding-bottom: 0;
+  margin-left: 1em;
+  text-indent: -1em;
+}
+section.form_area #complete_info ul.pr_area li {
+  text-align: center;
+}
+#confirm .tax {
+  font-size: 1.2rem;
+}
+#ui-datepicker-div {
+  z-index: 100 !important;
+  font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  background: #e9f0ee;
+}
+#ui-datepicker-div .ui-widget-header {
+  border: none;
+  background: #53b0cc;
+}
+#ui-datepicker-div .ui-widget-header .ui-state-disabled {
+  display: none;
+}
+#ui-datepicker-div .ui-widget-header .ui-datepicker-prev,
+#ui-datepicker-div .ui-widget-header .ui-datepicker-next {
+  cursor: pointer;
+}
+#ui-datepicker-div .ui-state-hover {
+  border: none;
+  background: #def6ff;
+  border: 1px solid #1c94c4;
+  color: #3fafdb;
+}
+#ui-datepicker-div .ui-state-hover .ui-icon {
+  background-image: url("../img/jui/ui-icons_228ef1_256x240.png");
+}
+#ui-datepicker-div .ui-state-disabled {
+  opacity: 0.25;
+}
+#ui-datepicker-div .ui-datepicker-today.ui-state-disabled {
+  opacity: 0.4;
+}
+#ui-datepicker-div .holiday .ui-state-default {
+  color: #f64712;
+}
+#ui-datepicker-div .ui-datepicker-today.ui-state-disabled {
+  opacity: 0.3;
+}
+#ui-datepicker-div .ui-state-default {
+  border: 1px solid #8ecec8;
+}
+#ui-datepicker-div .ui-state-active {
+  color: #e36733;
+  border: 1px solid #e36733;
+  background: #fffcd6;
+}
