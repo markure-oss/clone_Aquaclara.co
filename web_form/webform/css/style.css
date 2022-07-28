@@ -704,7 +704,7 @@ section.form_area #complete_info ul.pr_area li {
 }
 #ui-datepicker-div {
   z-index: 100 !important;
-  font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
   background: #e9f0ee;
