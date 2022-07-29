@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*  ID419 アクアクララのある生活
+================================================== */
+/*  .instagram-intro
+-------------------------------------------------- */
+#instagram.instagram .instagram-intro { padding: 15px 0 45px; }
+
+@media all and (min-width: 768px) { #instagram.instagram .instagram-intro { padding: 50px 0 100px; }
+  #instagram.instagram .instagram-intro__txt { text-align: center; } }
+
+/*  .instagram-timeline
+-------------------------------------------------- */
+#instagram.instagram .instagram-timeline { padding: 60px 0; }
+
+@media all and (min-width: 768px) { #instagram.instagram .instagram-timeline { padding: 100px 0; } }

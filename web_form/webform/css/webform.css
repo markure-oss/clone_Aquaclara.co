@@ -786,7 +786,7 @@ section.form_area form .btn_area .next_bn::before {
     width: 50%;
   }
 }
-section.form_area form .btn_area .next_bn input,
+section.form_area form .btn_area .next_bn button,
 section.form_area form .btn_area .next_bn a {
   display: block;
   padding: 13px 31px;
