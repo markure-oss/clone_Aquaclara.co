@@ -3851,7 +3851,7 @@ a.u-zoom .u-zoom__img-wrap { display: block; overflow: hidden; }
 
 /*  .l-footer-cv
 ================================================== */
-.l-footer-cv { padding: 39px 0 41px; background: url(../img/common/footer/bg_cv01_sp.jpg) no-repeat center/cover; }
+.l-footer-cv { padding: 39px 0 41px; background: url(../img/footer/bg_cv01_sp.jpg) no-repeat center/cover; }
 
 .l-footer-cv__content { padding: 24px 20px 27px; background: #fff; border-radius: 10px; }
 
@@ -3871,7 +3871,7 @@ a.u-zoom .u-zoom__img-wrap { display: block; overflow: hidden; }
 
 .l-footer-cv-btn.is-red .l-footer-cv-btn__txt:before { left: -5px; }
 
-@media all and (min-width: 768px) { .l-footer-cv { padding: 81px 0; background: url(../img/common/footer/bg_cv01_pc.jpg) no-repeat center/cover; }
+@media all and (min-width: 768px) { .l-footer-cv { padding: 81px 0; background: url(../img/footer/bg_cv01_pc.jpg) no-repeat center/cover; }
   .l-footer-cv__content { padding: 38px 20px 61px; border-radius: 20px; }
   .l-footer-cv__head { font-size: 2.4rem; }
   .l-footer-cv__lead { margin: 16px 0 36px; }
@@ -4392,7 +4392,7 @@ a.u-zoom .u-zoom__img-wrap { display: block; overflow: hidden; }
 
 /* .l-sub-img
 ================================================ */
-.l-sub-img { background: url(../img/common/bg_mv01_sp.jpg) center center no-repeat; background-size: cover; }
+.l-sub-img { background: url(/web_form/general/img/bg_mv01_pc.jpg) center center no-repeat; background-size: cover; }
 
 .l-sub-img__inner { -webkit-box-sizing: border-box; box-sizing: border-box; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; height: 165px; }
 
@@ -4404,7 +4404,7 @@ a.u-zoom .u-zoom__img-wrap { display: block; overflow: hidden; }
 
 .l-sub-img__head .is-small { font-size: 1.6rem; }
 
-@media all and (min-width: 768px) { .l-sub-img { background: url(../img/common/bg_mv01_pc.jpg) center center no-repeat; background-size: cover; margin: 0 auto; max-width: 95%; }
+@media all and (min-width: 768px) { .l-sub-img { background: url(/web_form/general/img/bg_mv01_pc.jpg) center center no-repeat; background-size: cover; margin: 0 auto; max-width: 95%; }
   .l-sub-img__inner { height: 250px; }
   .l-sub-img__head-en { font-size: 1.6rem; margin-bottom: 10px; }
   .l-sub-img__head-ja { letter-spacing: 0.1em; font-size: 3.2rem; line-height: 1.5; }
