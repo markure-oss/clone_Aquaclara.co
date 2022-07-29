@@ -23,7 +23,7 @@ body.webform #form_step {
   margin: 15px auto;
   padding: 0;
   display: table;
-  width: 250px;
+  width: 300px;
   position: relative;
 }
 @media screen and (min-width: 768px) {
@@ -957,7 +957,7 @@ section.form_area form #zip_bn {
   float: left;
   display: block;
   padding: 10px 0;
-  width: 8em;
+  width: 10em;
   height: 40px;
   cursor: pointer;
   border: none;

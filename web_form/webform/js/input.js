@@ -391,8 +391,8 @@ $(function () {
         _bottle_ck = 1;
       $("#support_fee span.fee").text(_digit3(_fee[0]));
       $("#water_fee span.fee").text(_digit3(_fee[1]));
-      if (_apply.apply == "ktry") $("#water_fee span.unit").text("円/5本");
-      else $("#water_fee span.unit").text("円/本");
+      if (_apply.apply == "ktry") $("#water_fee span.unit").text("yên/ 5 chiếc");
+      else $("#water_fee span.unit").text(" yên/ chiếc");
       if (_support_ck == 0) {
         $("#support_fee span.fee").hide();
         $("#support_fee span.fee").fadeIn(this.FormSpeed);

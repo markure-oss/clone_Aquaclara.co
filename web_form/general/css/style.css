@@ -61,7 +61,8 @@ button { cursor: pointer; }
 ================================================ */
 html { overflow: auto; }
 
-body { overflow: hidden; min-width: 320px; font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif; color: #5D5F68; font-size: 1.4rem; line-height: 1.8; letter-spacing: .08em; }
+body { overflow: hidden; min-width: 320px; font-family: 'Roboto', sans-serif;
+  color: #5D5F68; font-size: 1.4rem; line-height: 1.8; letter-spacing: .08em; }
 
 @media all and (min-width: 768px) { body { min-width: 1160px; font-size: 1.6rem; } }
 
@@ -145,7 +146,7 @@ a.u-zoom .u-zoom__img-wrap { display: block; overflow: hidden; }
 
 /*  .u-font-lato
 ---------------------------------------- */
-.u-font-lato { font-family: 'Lato', sans-serif; text-transform: uppercase; }
+.u-font-lato { font-family: 'Roboto', sans-serif; text-transform: uppercase; }
 
 .u-font-bold { font-weight: bold; }
 

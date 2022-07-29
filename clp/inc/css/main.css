@@ -253,7 +253,7 @@ A:hover {
 /*--- ページ設定 -----------------*/
 body {
   background: #fff;
-  font-family: "游ゴシック体", "Yu Gothic", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Arial, Helv etica, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #222222;
   font-size: 1.4rem;
   line-height: 1.5;
@@ -1106,7 +1106,7 @@ body p {
 }
 .Water .WaterWrap .WaterTitle .Copy {
   flex-basis: 77%;
-  font-family: "Noto Sans JP";
+  font-family: "Roboto";
 }
 .Water .WaterWrap .WaterTitle .Copy p:nth-of-type(1) {
   font-size: 2.3vw;
@@ -1543,7 +1543,7 @@ body p {
 }
 .Water_bottle .WaterWrap .WaterTitle .Copy {
   flex-basis: 77%;
-  font-family: "Noto Sans JP";
+  font-family: "Roboto";
 }
 .Water_bottle .WaterWrap .WaterTitle .Copy p:nth-of-type(1) {
   font-size: 4.5vw;
