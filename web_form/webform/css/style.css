@@ -505,13 +505,13 @@ section.form_area #birthday_month,
 section.form_area #birthday_day {
   position: relative;
   width: 80%;
-  padding-right: 25px;
+  padding-right: 50px;
   box-sizing: border-box;
 }
 section.form_area #birthday_year::before,
 section.form_area #birthday_month::before,
 section.form_area #birthday_day::before {
-  content: "年";
+  /* content: "Năm"; */
   display: block;
   position: absolute;
   top: 8px;
@@ -521,7 +521,7 @@ section.form_area #birthday_day::before {
 section.form_area #birthday_month,
 section.form_area #birthday_day {
   position: relative;
-  padding-right: 22px;
+  padding-right: 50px;
   box-sizing: border-box;
 }
 section.form_area #birthday_month::before,
@@ -538,29 +538,29 @@ section.form_area #birthday_year {
 @media screen and (min-width: 768px) {
   section.form_area #birthday_year {
     float: left;
-    width: 15em;
-    margin-right: 25px;
+    width: 20em;
+    margin-right: 50px;
   }
 }
-section.form_area #birthday_year::before {
-  content: "年";
-}
+/* section.form_area #birthday_year::before {
+  content: "Năm";
+} */
 section.form_area #birthday_month {
   float: left;
   margin-top: 15px;
-  margin-right: 10%;
+  margin-right: 30%;
   width: 35%;
 }
 @media screen and (min-width: 768px) {
   section.form_area #birthday_month {
     width: 8em;
     margin-top: 0;
-    margin-right: 25px;
+    margin-right: 0px;
   }
 }
-section.form_area #birthday_month::before {
-  content: "月";
-}
+/* section.form_area #birthday_month::before {
+  content: "Tháng";
+} */
 section.form_area #birthday_day {
   float: left;
   width: 35%;
@@ -572,9 +572,9 @@ section.form_area #birthday_day {
     margin-top: 0;
   }
 }
-section.form_area #birthday_day::before {
-  content: "日";
-}
+/* section.form_area #birthday_day::before {
+  content: "Ngày";
+} */
 section.form_area #usernumber_input_area {
   font-size: 1.6rem;
 }
