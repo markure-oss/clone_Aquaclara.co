@@ -80,28 +80,19 @@
       <p class="form_title">Tên<span class="mandatory">Bắt buộc</span></p>
             <div class="input_line2"><span class="input_title">Họ</span><input class="" name="lastName" value="" type="text" maxlength="12" placeholder="Mizuno"></div>
       <div class="input_line2"><span class="input_title">Tên</span><input class="" name="firstName" value="" type="text" maxlength="12" placeholder="Hanako"></div>
-
-      <div class="form_inner_block">
-        <p class="form_title">Tên(furigana))<span class="mandatory">Bắt buộc</span></p>
-                <div class="input_line2"><span class="input_title">Họ</span><input class=""  name="lastNameKana" value="" type="text" maxlength="20" placeholder="Mizuno"></div>
-        <div class="input_line2"><span class="input_title">Tên</span><input class=""  name="firstNameKana" value="" type="text" maxlength="20" placeholder="Hanako"></div>
-      </div>
     </div>
-
+    </div>
     <div id="corporation">
       <div>
         <p class="form_title">Tên công ty<span class="mandatory">Bắt buộc</span></p>
                 <input class="" name="companyName" type="text" value="" maxlength="25" placeholder="Aqua Clara, Inc.">
       </div>
-
-  
-
       <div id="owner_name_area" class="form_inner_block">
         <p class="form_title">Tên người phụ trách<span class="mandatory">Bắt buộc</span></p>
                 <div class="input_line2"><span class="input_title">Họ</span><input class="" name="ownerLastName" value="" type="text" maxlength="12" placeholder="Mizuno"></div>
         <div class="input_line2"><span class="input_title">Tên</span><input class="" name="ownerFirstName" value="" type="text" maxlength="12" placeholder="Hanako"></div>
       </div>
-
+    </div>
   </div><!-- /#form_block -->
   
   <div class="form_block">
@@ -111,13 +102,13 @@
     <p class="input_info">※Không có gạch nối (-)</p>
 
     <div class="form_inner_block">
-      <p class="form_title">Địa chỉ (đến tên thành phố)<span class="mandatory">Bắt buộc</span></p>
+      <p class="form_title">Địa chỉ (đến tên thị trấn)<span class="mandatory">Bắt buộc</span></p>
             <input id="address1" class="" name="address1" type="text" value="" maxlength="25" placeholder="Konan, Minatoku, Tokyo">
     </div>
 
     <div class="form_inner_block">
-      <p class="form_title">Địa chỉ (đến tên thị trấn)<span class="mandatory">Bắt buộc</span></p>
-            <input id="address1_2" class="" name="address1_2" type="text" value="" maxlength="25" placeholder="">
+      <p class="form_title">Địa chỉ (đến tên khu phố)<span class="mandatory">Bắt buộc</span></p>
+            <input id="address1_2" class="" name="address1_2" type="text" value="" maxlength="25" placeholder="Số 1 khu phố 6-31">
     </div>
 
     <div class="form_inner_block">
@@ -493,7 +484,11 @@
   
   <div class="form_block">
     <p class="form_title">Số lượng người dùng</p>
-        <div id="usernumber_input_area">Người lớn <input class="" name="userNumber" value="" type="text" maxlength="2" pattern="[0-9]*">&nbsp;Trẻ em <input class="" name="childrenNumber" value="" type="text" maxlength="2" pattern="[0-9]*">&nbsp;</div>
+        <div id="usernumber_input_area">
+            <label>Người lớn</label>
+            <input class="" name="userNumber" value="" type="text" maxlength="2" pattern="[0-9]*">&nbsp;(người)
+            <label id="childrenNumber">Trẻ em </label>
+            <input class="" name="childrenNumber" value="" type="text" maxlength="2" pattern="[0-9]*">&nbsp;(người)</div>
   </div><!-- /#form_block -->
   
   <div class="form_block">
@@ -529,7 +524,7 @@
           ※Giá bình nước đúng như kế hoạch chiết khấu 2 năm.<br>
           Vui lòng kiểm tra phí hỗ trợ bảo mật vì nó thay đổi tùy thuộc vào máy chủ nước mà bạn sử dụng.</li>
         <li>Những lưu ý khi đăng ký bộ thử nghiệm thủy sản nuôi con<br>
-            Bộ dùng thử aqua nuôi con (sau đây gọi là "bộ này") chỉ áp dụng cho phụ nữ mang thai lần đầu sử dụng Aqua Clara và trẻ mẫu giáo từ 0 đến 6 tuổi trở xuống. Khi áp dụng phương án này, để xác nhận con đối tượng, bạn sẽ được yêu cầu xuất trình hoặc sao chép (copy) một trong các sổ tay bà mẹ và trẻ em, thẻ bảo hiểm y tế, thẻ thường trú, bản sao hộ khẩu và bản trích lục hộ khẩu. Bộ sản phẩm này có giá 2.700 yên (đã bao gồm thuế) và bạn có thể sử dụng 5 chai và Aqua Clara trong tối đa 3 tháng. Nếu bạn muốn sử dụng bộ sản phẩm này và đặt thêm bình nước hoặc sử dụng sau tháng thứ 4, bạn cần phải có đủ tư cách thành viên của Câu lạc bộ Aqua Clara và đăng ký trở thành thành viên của gói nuôi dưỡng trẻ em dưới nước. Máy chủ nước có thể được sử dụng với gói này là Aqua Fab, Aqua Slim hoặc Aqua Slim S. Bộ này không thể được sử dụng hoặc trùng lặp với các kế hoạch khác hoặc các chiến dịch khác. Quyền lợi đăng ký mới sau khi sử dụng Bộ dùng thử Aqua nuôi dạy trẻ không được áp dụng.<br>
+            Set aqua với trẻ (sau đây gọi là "bộ này") chỉ áp dụng cho phụ nữ mang thai lần đầu sử dụng Aqua Clara và trẻ mẫu giáo từ 0 đến 6 tuổi trở xuống. Khi áp dụng phương án này, để xác nhận con đối tượng, bạn sẽ được yêu cầu xuất trình hoặc sao chép (copy) một trong các sổ tay bà mẹ và trẻ em, thẻ bảo hiểm y tế, thẻ thường trú, bản sao hộ khẩu và bản trích lục hộ khẩu. Bộ sản phẩm này có giá 2.700 yên (đã bao gồm thuế) và bạn có thể sử dụng 5 chai và Aqua Clara trong tối đa 3 tháng. Nếu bạn muốn sử dụng bộ sản phẩm này và đặt thêm bình nước hoặc sử dụng sau tháng thứ 4, bạn cần phải có đủ tư cách thành viên của Câu lạc bộ Aqua Clara và đăng ký trở thành thành viên của gói nuôi dưỡng trẻ em dưới nước. Water server có thể được sử dụng với gói này là Aqua Fab, Aqua Slim hoặc Aqua Slim S. Bộ này không thể được sử dụng hoặc trùng lặp với các kế hoạch khác hoặc các chiến dịch khác. Quyền lợi đăng ký mới sau khi sử dụng Bộ dùng thử Aqua nuôi dạy trẻ không được áp dụng.<br>
           ※Aqua Fab đủ điều kiện cho bộ sản phẩm này trong thời gian giới hạn cho đến ngày 30 tháng 9 năm 2022.</li>
 <li>Những lưu ý khi đăng ký "Chiến dịch Mùa hè 2022"<br>
     Nếu bạn đăng ký chiến dịch này và rút tiền trong vòng 24 tháng kể từ ngày lắp đặt máy chủ nước, bạn sẽ không đủ điều kiện cho chiến dịch này và bạn sẽ bị tính phí 8.800 yên (đã bao gồm thuế) như một món quà miễn phí tại thời điểm rút tiền. Vui long thanh toan. Ngoài khoản thanh toán phí bảo hiểm trên, phí hủy chuyến có thể được tính trên đường đi. (Số lượng và thời gian thay đổi tùy theo gói. Để biết chi tiết, vui lòng kiểm tra trang web của chúng tôi hoặc cửa hàng phụ trách).</li>
@@ -570,8 +565,7 @@
             Vui lòng liên hệ với Trung tâm khách hàng Aqua Clara của chúng tôi dưới đây để được thông báo, tiết lộ, sửa chữa, bổ sung, tạm ngừng sử dụng,… về mục đích sử dụng thông tin cá nhân bị tiết lộ. Chúng tôi sẽ phản hồi ngay khi có thể xác nhận với khách hàng.<br>
           <br>
           Aqua Clara, Inc. Trung tâm khách hàng Aqua Clara (Giờ làm việc 9:00 đến 17:30 các ngày trong tuần)<br>
-          Điện thoại :0120-331-626<br>
-          WEB:Vui lòng liên hệ với chúng tôi qua <a href="/inquiry/synthesis.php" target="_blank">Form yêu cầu</a></li>
+          Điện thoại :0120-331-626</li>
       </ol>
     </div>
         <ul id="agreement_check" class="form_checkbox select_type1">
@@ -582,9 +576,9 @@
   <p id="error_assist">Kiểm tra các mục trống / lỗi</p>
   
   <div class="btn_area">
-    <p class="error_bn">Có các mục dữ liệu chưa được giải mã.</p>
+    <p class="error_bn">Xác thực dữ liệu</p>
     <!-- <p class="next_bn"><input type="submit" value="次へ" formnovalidate="formnovalidate"></p> -->
-    <p class="back_bn"><input onclick='document.forms[0].cmd.value="back_entry";document.forms[0].action="/webform/"' type="submit" value="戻る" formnovalidate="formnovalidate"></p>
+    <p class="back_bn"><input onclick='document.forms[0].cmd.value="back_entry";document.forms[0].action="/webform/"' type="submit" value="Quay lại" formnovalidate="formnovalidate"></p>
   </div>
   </form>
 
