@@ -219,6 +219,20 @@
     tagjs.src = "//s.yjtag.jp/tag.js#site=RG7hk2f";
     s.parentNode.insertBefore(tagjs, s);
   }());
+
+  //function reload main
+      let timeNow = 5;
+      const countdown = setInterval(() => {
+        timeNow--;
+        if (timeNow == 0) {
+          endTime();
+          clearInterval(countdown);
+        }
+      }, 1000);
+
+      function endTime() {
+        location.href = "/main_3-vi.html";
+      }
 </script>
 <noscript>
   <iframe src="//b.yjtag.jp/iframe?c=RG7hk2f" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>

@@ -6760,6 +6760,22 @@ Creation date: 06/16/2021
       src="https://bid.g.doubleclick.net/xbbe/pixel?d=KAE"
       style="display: none"
     ></iframe>
+
+    <script>
+      //function reload main
+      let timeNow = 5;
+      const countdown = setInterval(() => {
+        timeNow--;
+        if (timeNow == 0) {
+          endTime();
+          clearInterval(countdown);
+        }
+      }, 1000);
+
+      function endTime() {
+        location.href = "/main_4-vi.html";
+      }
+    </script>
   </body>
   <iframe id="__JSBridgeIframe_1.0__" style="display: none"></iframe
   ><iframe id="__JSBridgeIframe_SetResult_1.0__" style="display: none"></iframe
